@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://linux.tucows.com/files/gnome/media/%{name}-DR%{version}.tar.gz
+# Source0-md5:	763f4e11f5f0e939f8d5437e1c9cfa88
 Patch0:		%{name}-opt.patch
 # 404, but no working URL
 URL:		http://www.icom.net/~smelecat/emp3/
