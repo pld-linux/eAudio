@@ -5,8 +5,6 @@ Version:	0.9.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://linux.tucows.com/files/gnome/media/%{name}-DR%{version}.tar.gz
 Patch0:		%{name}-opt.patch
 # 404, but no working URL
