@@ -9,18 +9,13 @@ Source0:	http://linux.tucows.com/files/gnome/media/%{name}-DR%{version}.tar.gz
 Patch0:		%{name}-opt.patch
 # 404, but no working URL
 URL:		http://www.icom.net/~smelecat/emp3/
-BuildRequires:	gtk+-devel >= 1.1.15
-BuildRequires:	imlib-devel >= 1.9.2
-BuildRequires:	esound >= 0.2.7
-BuildRequires:	libungif-devel
-BuildRequires:	libjpeg-devel
-BuildRequires:	libpng-devel
-BuildRequires:	libtiff-devel
-BuildRequires:	libstdc++-devel
-BuildRequires:	zlib-devel
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	esound >= 0.2.7
+BuildRequires:	gtk+-devel >= 1.1.15
+BuildRequires:	imlib-devel >= 1.9.2
+BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	eMusic
