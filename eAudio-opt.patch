@@ -1,0 +1,20 @@
+--- eAudio-DR0.9.1/configure.in.orig	Mon Aug  9 22:09:20 1999
++++ eAudio-DR0.9.1/configure.in	Tue Oct 23 11:06:53 2001
+@@ -142,16 +142,10 @@
+     ;;
+ 
+   Linux|FreeBSD)
+-    if test "$ARCH_TYPE" = "i486" ; then
+-      CFLAGS_ARCH="-m486"
+-    fi
+-    if test "$ARCH_TYPE" = "i586" ; then
+-      CFLAGS_ARCH="-m486 -i586"
+-    fi
+     if test "$OS_TYPE" = "FreeBSD" ; then
+       OS_TYPE="BSD"
+     fi
+-      CFLAGS="$CFLAGS -I/usr/include -I/usr/X11R6/include -D_REENTRANT -DNO_BYTE_SWAPPING -DOS_$OS_TYPE -DARCH_$ARCH_TYPE -O6 -finline-functions -ffast-math -fomit-frame-pointer ${CFLAGS_ARCH}"
++      CFLAGS="$CFLAGS -I/usr/include -I/usr/X11R6/include -D_REENTRANT -DNO_BYTE_SWAPPING -DOS_$OS_TYPE -DARCH_$ARCH_TYPE -ffast-math ${CFLAGS_ARCH}"
+       AC_DEFINE(CONFIG_BSD_STYLE_RECVFD)
+       CXXFLAGS="-fno-exceptions -fno-rtti $CFLAGS"
+     ;;
