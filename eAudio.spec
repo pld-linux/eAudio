@@ -4,7 +4,7 @@ Name:		eAudio
 Version:	0.9.1
 Release:	1
 License:	GPL
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	http://linux.tucows.com/files/gnome/media/%{name}-DR%{version}.tar.gz
 Patch0:		%{name}-opt.patch
 # 404, but no working URL
