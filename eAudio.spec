@@ -1,5 +1,5 @@
 Summary:	eAudio, formerly known as eMusic
-Summary(pl.UTF-8):   eAudio, znane kiedyś jako eMusic
+Summary(pl.UTF-8):	eAudio, znane kiedyś jako eMusic
 Name:		eAudio
 Version:	0.9.1
 Release:	1
