@@ -1,5 +1,5 @@
 Summary:	eAudio, formerly known as eMusic
-Summary(pl):	eAudio, znane kiedy¶ jako eMusic
+Summary(pl.UTF-8):   eAudio, znane kiedyÅ› jako eMusic
 Name:		eAudio
 Version:	0.9.1
 Release:	1
@@ -25,10 +25,10 @@ Obsoletes:	eMusic
 It's an "enlightened" sound file player gui type thing. Enlightened
 meaning it's highly configurable, graphics wise.
 
-%description -l pl
-W pakiecie znajduje siê "o¶wiecony" odtwarzacz d¼wiêków dla
-Enlightenmenta. O¶wiecony to znaczy bardzo ³atwo daj±cy siê
-konfigurowaæ - w sposób graficzny.
+%description -l pl.UTF-8
+W pakiecie znajduje siÄ™ "oÅ›wiecony" odtwarzacz dÅºwiÄ™kÃ³w dla
+Enlightenmenta. OÅ›wiecony to znaczy bardzo Å‚atwo dajÄ…cy siÄ™
+konfigurowaÄ‡ - w sposÃ³b graficzny.
 
 %prep
 %setup -q -n %{name}-DR%{version}
